@@ -1,6 +1,8 @@
 # dataset settings
 dataset_type = 'NucleiDataset_Overall_MultiHead_CMOL'
-dataset_path = 'Path to Dataset'
+# dataset_path = 'Path to Dataset'
+dataset_path = 'C:/Users/csc76/PycharmProjects/UniCell/dataset/Dataset'
+
 data_root = '{}/Overall_Multi_Patches_FourDataset_CMOL_GIT/'.format(dataset_path)
 whole_ann_root = "{}/Overall_Multi_FourDataset_CMOL_GIT/Test_Labels".format(dataset_path)
 dataset_name = 'Overall_MultiHead'
