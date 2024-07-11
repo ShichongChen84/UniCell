@@ -200,7 +200,8 @@ if __name__ == '__main__':
     save_dir = "Overall_Multi_FourDataset_CMOL_GIT"
     patch_save_dir = "Overall_Multi_Patches_FourDataset_CMOL_GIT"
     # dataset_path = "/mntnfs/med_data2/huangjunjia/dataset/PromptDet/Dataset"
-    dataset_path = "C:/Users/csc76/PycharmProjects/UniCell/dataset/Dataset"
+    #dataset_path = "C:/Users/csc76/PycharmProjects/UniCell/dataset/Dataset"
+    dataset_path = "../../../../../dataset/Dataset"
     img_save_path = "{}/{}".format(dataset_path, save_dir)
     modes = ["Train", "Test"]
     Save_Centroids = True

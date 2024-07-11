@@ -3,6 +3,7 @@ _base_ = [
     'mmdet::_base_/default_runtime.py'
 ]
 checkpoint_file = 'https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window12_384_22k.pth'  # noqa
+# checkpoint_file = 'C:/Users/csc76/PycharmProjects/UniCell/mmdetection/iter_96000.pth'
 backbone_norm_cfg = dict(type='LN', requires_grad=True)
 custom_imports = dict(
     imports=['projects.UniCell.datasets', 'projects.UniCell.deform_module'], allow_failed_imports=False)

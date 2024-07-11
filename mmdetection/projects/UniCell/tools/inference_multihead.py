@@ -281,9 +281,13 @@ def _f1_type(paired_true, paired_pred, unpaired_true, unpaired_pred, type_id, w)
 
 
 if __name__ == '__main__':
-    path_to_dataset = "Path to Dataset"
+    #path_to_dataset = "Path to Dataset"
+    path_to_dataset = "../../../../dataset/Dataset"
     config = "../configs/UniCell_CMOL.py"
-    checkpoint = "Path to Checkpoint"
+    #checkpoint = "Path to Checkpoint"
+    print("Current working directory:", os.getcwd())
+    checkpoint = "../../..//UniCell_CMOL.pth"
+    #checkpoint = "../../../best_Overall_F1c_iter_16000.pth"
     patch_dir = path_to_dataset + "/Overall_Multi_Patches_FourDataset_CMOL_GIT/Test"
     whole_ann_file = path_to_dataset + "/Overall_Multi_FourDataset_CMOL_GIT/Test_Labels"
     dataset = ["CoNSeP", "MoNuSAC", "OCELOT", "Lizard"]
